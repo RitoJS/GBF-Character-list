@@ -1,0 +1,110 @@
+$color: white;
+
+$background: #34495e;
+
+html{
+
+  	font-family: 'Dosis', sans-serif;
+	//background: url('../img/back1.jpg');
+  	body {
+  		background: url('../img/background.jpg');
+  		color: $color;
+  		font-family: 'Dosis', sans-serif;
+  	}
+}
+
+
+
+
+
+
+.border {
+	border: 1px solid blue;
+}
+
+.no-padding {
+	padding: 0px !important;
+}
+
+.no-padding-left {
+	padding-left: 0px !important;
+}
+
+.no-padding-right {
+	padding-right: 0px !important;
+}
+
+.no-padding-top {
+	padding-top: 0px !important;
+} 
+
+.no-padding-bottom {
+	padding-bottom: 0px !important;
+}
+
+.no-margin {
+	margin: 0px !important;
+}
+
+.no-margin-left {
+	margin-left: 0px !important;
+}
+
+.no-margin-right {
+	margin-right: 0px !important;
+}
+
+.no-margin-top {
+	margin-top: 0px !important;
+}
+
+.no-margin-bottom {
+	margin-bottom: 0px !important;
+}
+
+.center_txt {
+	text-align: center;
+}
+
+.al-right {
+	text-align: right;
+}
+
+.center_block {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+//Header page
+.header {
+	background-color: rgba(46, 134, 222,0.2);
+}
+
+
+
+
+
+
+
+
+
+//Tablet
+/*@media (min-width: 421px ) and (max-width: 1024px) {
+	h2 {
+		font-size: 15px !important; 
+	}
+	.body-content {
+		height: 87vh;
+	}
+}
+
+//Smartphone
+@media screen and (max-width: 480px) {
+	h2 {
+		font-size: 15px !important;
+	}
+	.body-content {
+		height: 90vh;
+	}
+}*/
