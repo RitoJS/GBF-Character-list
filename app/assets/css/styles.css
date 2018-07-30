@@ -1,3 +1,10 @@
+#about_msg {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  border-radius: 15px;
+  background-color: rgba(84, 160, 255, .5);
+}
+
 html {
   font-family: 'Dosis', sans-serif;
 }

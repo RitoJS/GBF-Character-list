@@ -38,7 +38,7 @@ gulp.task('build', ['css']);
 gulp.task('prod', ['build',  'minify']);
 
 //watch
-gulp.task('watch', ['css'], function () {
+gulp.task('watch',['css'], function () {
   gulp.watch(src + '/assets/scss/*.scss',['css']);
 });
 
